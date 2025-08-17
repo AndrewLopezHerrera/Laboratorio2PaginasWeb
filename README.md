@@ -55,118 +55,41 @@ Este sitio web muestra la información de las actividades que se realizarán en 
 
 ## Errores y advertencias
 
-1. Información: Barra final en elementos vacíos no tiene ningún efecto y interactúa mal con valores de atributos no citados.
-Desde la línea 120columna , 17; a línea 120columna , 116
+1. Información: Barra final en elementos vacíos no tiene efecto y puede interactuar mal con atributos no citados.
 
 ```html
-          <img width="500" height="500" tabindex="-1" src="assets/xbox.png" alt="Logo del patrocinador Xbox"/>
+   - <img width="500" height="500" tabindex="-1" src="assets/xbox.png" alt="Logo del patrocinador Xbox"/>
+   - <img width="500" height="500" tabindex="-1" src="assets/playstation.png" alt="Logo del patrocinador PlayStation"/>
+   - <img width="500" height="500" tabindex="-1" src="assets/nintendo.png" alt="Logo del patrocinador Nintendo"/>
 ```
 
-2. Advertencia: La sección carece de encabezado. Considere usar h2-h6 elementos a Agregue encabezados de identificación a todas las secciones, o bien utilice un div elemento en su lugar para cualquier caso en el que no se necesite ningún encabezado.
-Desde la línea 119columna , 13; a línea 119columna , 21
+2. Advertencia: Las secciones carecen de encabezado. Considere usar h2-h6 o un div si no se necesita encabezado.
 
 ```html
-          <section>↩
+   - <section> (x3)
 ```
 
-3. Información: Barra final en elementos vacíos no tiene ningún efecto y interactúa mal con valores de atributos no citados.
-Desde la línea 124columna , 17; a línea 124columna , 130
+3. Advertencia: Posible mal uso de aria-label. Los elementos ya tienen texto visible; considere colocarlo solo en el enlace si es necesario.
 
 ```html
-          <img width="500" height="500" tabindex="-1" src="assets/playstation.png" alt="Logo del patrocinador PlayStation"/>↩     
+   - <li aria-label="Abre la aplicación de email predeterminada para enviar un correo a e3@reedpop.com">Email</li>
+   - <li aria-label="Abre una ventana en el sitio de facebook de la E3">Facebook</li>
+   - <li aria-label="Abre una ventana en el sitio de instagram de la E3">Instagram</li>
+   - <li aria-label="Abre una ventana en el sitio de X de la E3">X (Twitter)</li>
 ```
 
-4. Advertencia: La sección carece de encabezado. Considere usar h2-h6 elementos a Agregue encabezados de identificación a todas las secciones, o bien utilice un div elemento en su lugar para cualquier caso en el que no se necesite ningún encabezado.
-Desde la línea 123columna , 13; a línea 123columna , 21
+4. Advertencia: Uso de múltiples h1. Se recomienda un único h1 como encabezado principal y usar h2-h6 para subtítulos.
 
 ```html
-          <section>↩   
-```  
-
-5. Información: Barra final en elementos vacíos no tiene ningún efecto y interactúa mal con valores de atributos no citados.
-Desde la línea 128columna , 17; a línea 128columna , 124
-
-```html
-          <img width="500" height="500" tabindex="-1" src="assets/nintendo.png" alt="Logo del patrocinador Nintendo"/>↩   
-```  
-
-6. Advertencia: La sección carece de encabezado. Considere usar h2-h6 elementos a Agregue encabezados de identificación a todas las secciones, o bien utilice un div elemento en su lugar para cualquier caso en el que no se necesite ningún encabezado.
-Desde la línea 127columna , 13; a línea 127columna , 21
-
-```html
-          <section>↩     
+   - <h1>Agenda</h1>
+   - <h1>Ponentes</h1>
+   - <h1>Registro</h1>
+   - <h1>Ubicación</h1>
+   - <h1>Patrocinadores</h1>
+   - <h1>Contacto</h1>
 ```
 
-7. Advertencia: Posible mal uso de aria-label. (Si no estás de acuerdo con esta advertencia, presentar un informe de problema o enviar correo electrónico a www-validator@w3.org.)
-Desde la línea 138columna , 17; a línea 138columna , 115
 
-```html
-          <li aria-label="Abre la aplicación de email predeterminada para enviar un correo a e3@reedpop.com">Email 
-```
-
-8. Advertencia: Posible mal uso de aria-label. (Si no estás de acuerdo con esta advertencia, presentar un informe de problema o enviar correo electrónico a www-validator@w3.org.)
-
-```html
-Desde la línea 139columna , 17; a línea 139columna , 83
-
-          <li aria-label="Abre una ventana en el sitio de facebook de la E3">Facebo
-```
-
-9. Advertencia: Posible mal uso de aria-label. (Si no estás de acuerdo con esta advertencia, presentar un informe de problema o enviar correo electrónico a www-validator@w3.org.)
-Desde la línea 140columna , 17; a línea 140columna , 84
-
-```html
-          <li aria-label="Abre una ventana en el sitio de instagram de la E3">Instag
-```
-
-10. Advertencia: Posible mal uso de aria-label. (Si no estás de acuerdo con esta advertencia, presentar un informe de problema o enviar correo electrónico a www-validator@w3.org.)
-Desde la línea 141columna , 17; a línea 141columna , 76
-
-```html
-          <li aria-label="Abre una ventana en el sitio de X de la E3">X (Twi
-```
-
-11. Advertencia: Considere utilizar el h1 elemento como encabezado de nivel superior únicamente (todos h1 elementos Muchos lectores de pantalla y otras herramientas los tratan como títulos de nivel superior).
-Desde la línea 61columna , 13; a línea 61columna , 16
-
-```html
-          <h1>Ponent
-```
-
-12. Advertencia: Considere utilizar el h1 elemento como encabezado de nivel superior únicamente (todos h1 elementos Muchos lectores de pantalla y otras herramientas los tratan como títulos de nivel superior).
-Desde la línea 21columna , 13; a línea 21columna , 16
-
-```html
-          <h1>Agenda
-```
-
-13. Advertencia: Considere utilizar el h1 elemento como encabezado de nivel superior únicamente (todos h1 elementos Muchos lectores de pantalla y otras herramientas los tratan como títulos de nivel superior).
-Desde la línea 91columna , 13; a línea 91columna , 16
-
-```html
-          <h1>Regist
-```
-
-14. Advertencia: Considere utilizar el h1 elemento como encabezado de nivel superior únicamente (todos h1 elementos Muchos lectores de pantalla y otras herramientas los tratan como títulos de nivel superior).
-Desde la línea 117columna , 13; a línea 117columna , 16
-
-```html
-          <h1>Patroc
-```
-
-15. Advertencia: Considere utilizar el h1 elemento como encabezado de nivel superior únicamente (todos h1 elementos Muchos lectores de pantalla y otras herramientas los tratan como títulos de nivel superior).
-Desde la línea 135columna , 13; a línea 135columna , 16
-
-```html
-          <h1>Contac
-```
-
-16. Advertencia: Considere utilizar el h1 elemento como encabezado de nivel superior únicamente (todos h1 elementos Muchos lectores de pantalla y otras herramientas los tratan como títulos de nivel superior).
-Desde la línea 112columna , 13; a línea 112columna , 16
-
-```html
-          <h1>Ubicac
-```
 
 ### Captura de pantalla uno
 
@@ -181,3 +104,21 @@ Desde la línea 112columna , 13; a línea 112columna , 16
 1. Se eliminó las barras de la etiqueta img
 2. Se cambió de h1 a h2 en las secciones.
 3. Se cambió el aria-label a las etiquetas \<a\>
+4. Se agregaron las etiquetas \<h3\> en las etiquetas \<section\> que no las tenían.
+
+# Validación de Lighthouse
+
+## Capturas de pantalla de Lighthouse para móviles
+
+![La captura uno de lighthouse en móvil](img/CapturaTres.png)
+![La captura dos de lighthouse en móvil](img/CapturaCuatro.png)
+![La captura tres de lighthouse en móvil](img/CapturaCinco.png)
+
+## Capturas de pantalla de Lighthouse para pc
+
+![La captura uno de lighthouse en escritorio](img/CapturaSeis.png)
+![La captura dos de lighthouse en escritorio](img/CapturaSiete.png)
+![La captura tres de lighthouse en escritorio](img/CapturaOcho.png)
+
+## Recomendaciones para mejorar accesibilidad
+
