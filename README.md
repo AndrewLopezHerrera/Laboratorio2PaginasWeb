@@ -122,3 +122,11 @@ Este sitio web muestra la información de las actividades que se realizarán en 
 
 ## Recomendaciones para mejorar accesibilidad
 
+**Problema:** Los objetivos táctiles no tienen suficiente tamaño ni separación.
+**Solución:** Hacer los botones más grandes con ayuda del CSS.
+
+## Accesibilidad aplicada
+
+Se utilizó el aria-label en dos etiquetas. En la etiqueta **\<a\>** para dar una descripción a los enlaces externos a redes sociales, debido que los enlaces no tiene una descripción de lo que hacen o hacia donde llevan. En la etiquita **\<form\>** se utilizó para indicar que es lo que hace ese formulario y que es lo que se espera de los usuarios.
+
+El tabindex se utilizó en la sección de los expositores, específicamente en las imágenes, ya que esto ayuda a recorrer fácilmente las imágenes de los cuatros expositores.
