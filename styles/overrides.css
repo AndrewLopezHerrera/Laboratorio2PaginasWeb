@@ -1,0 +1,40 @@
+.listExhibitors li:first-child {
+    box-shadow: 0 4px 16px transparent;
+    transition: box-shadow 0.3s ease;
+}
+
+.listExhibitors li:first-child:hover {
+    box-shadow: 0 4px 16px #CF0F47;
+}
+
+
+.listExhibitors li:last-child {
+    box-shadow: 0 4px 16px transparent;
+    transition: box-shadow 0.3s ease;
+}
+
+.listExhibitors li:last-child:hover {
+    box-shadow: 0 4px 16px #0072CE;
+}
+
+.listExhibitors li:nth-child(2) {
+    box-shadow: 0 4px 16px transparent;
+    transition: box-shadow 0.3s ease;
+}
+
+.listExhibitors li:nth-child(2):hover {
+    box-shadow: 0 4px 16px #00ff15;
+}
+
+.listExhibitors li:nth-child(3) {
+    box-shadow: 0 4px 16px transparent;
+    transition: box-shadow 0.3s ease;
+}
+
+.listExhibitors li:nth-child(3):hover {
+    box-shadow: 0 4px 16px #00ff15;
+}
+
+#infoPatrocinadores hr {
+  border-color: #CF0F47 !important;
+}
