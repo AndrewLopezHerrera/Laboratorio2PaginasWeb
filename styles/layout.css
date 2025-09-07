@@ -22,3 +22,21 @@ body {
   width: 100%;
   align-items: center;
 }
+
+@media (max-width: 1024px) { /* Small Desktop */
+  main {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) { /* Tablet */
+  main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) { /* Mobile */
+  main {
+    width: 90%;
+  }
+}

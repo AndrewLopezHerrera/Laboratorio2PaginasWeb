@@ -2,16 +2,26 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E3 Expo 2025</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/components.css">
     <link rel="stylesheet" href="styles/overrides.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
         <h1>E3 Expo 2025</h1>
-        <nav>
+        <button
+            id="menuPrincipal"
+            aria-label="Abrir menú"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            class="botonMenu">
+            <span>☰</span>
+        </button>
+        <nav id="mainNav" class="mainNav">
             <a href="#agenda">Agenda</a>
             <a href="#expositores">Expositores</a>
             <a href="#registro">Registro</a>
@@ -130,7 +140,7 @@
             <iframe title="Mapa de la sede del evento E3" src="https://www.google.com/maps?q=Los+Angeles+Convention+Center&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
         <section id="patrocinadores" class="presentationsSection">
-            <h2 class="presentationsH2" style="color: #FF0B55;">Patrocinadores</h2>
+            <h2 class="presentationsH2">Patrocinadores</h2>
             <hr class="hrHorizontal">
             <p>Agradecemos a nuestros patrocinadores por su apoyo</p>
             <div class="listSponsors" id="infoPatrocinadores">
