@@ -265,6 +265,26 @@ a[href]:hover {
   min-height: 300px;
 }
 
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.hero picture img {
+  width: 100vw;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.7);
+}
+
 @media (min-width: 1024px) {
   header {
     justify-content: space-around;
