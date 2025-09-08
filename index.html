@@ -31,6 +31,13 @@
         </nav>
     </header>
     <main>
+        <section>
+            <picture>
+                <source srcset="assets/hero-desktop.png" media="(min-width: 1024px)">
+                <source srcset="assets/hero-tablet.png" media="(min-width: 768px)">
+                <img src="assets/hero-mobile.png" alt="Imagen principal del evento E3 Expo 2025" style="width:100%; display:block;">
+            </picture>
+        </section>
         <section id="agenda" class="presentationsSection">
             <h2 class="presentationsH2">Agenda</h2>
             <hr class="hrHorizontal">
@@ -137,29 +144,28 @@
             <h2 class="presentationsH2">Ubicación</h2>
             <hr class="hrHorizontal">
             <p>La E3 Expo 2025 se celebrará en Los Ángeles, California, EE. UU.</p>
-            <iframe title="Mapa de la sede del evento E3" src="https://www.google.com/maps?q=Los+Angeles+Convention+Center&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe title="Mapa de la sede del evento E3" src="https://www.google.com/maps?q=Los+Angeles+Convention+Center&output=embed" class="mapaIframe" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
         <section id="patrocinadores" class="presentationsSection">
             <h2 class="presentationsH2">Patrocinadores</h2>
             <hr class="hrHorizontal">
             <p>Agradecemos a nuestros patrocinadores por su apoyo</p>
             <div class="listSponsors" id="infoPatrocinadores">
-                <section style="position: relative;">
-                    <span class="mainSponsorTag">Patrocinador principal</span>
+                <section>
                     <h3>XBOX</h3>
-                    <img width="500" height="500" tabindex="-1" src="assets/xbox.png" alt="Logo del patrocinador Xbox">
+                    <img tabindex="-1" src="assets/xbox.png" alt="Logo del patrocinador Xbox">
                     <p>Xbox es la marca de entretenimiento de Microsoft dedicada a los videojuegos, que ofrece consolas, servicios en línea y juegos para todo tipo de públicos. Su función principal es brindar experiencias de juego en casa y en la nube, conectando a millones de jugadores a través de Xbox Live y ampliando el acceso a títulos mediante Xbox Game Pass. Desde el lanzamiento de la primera Xbox en 2001, ha logrado éxitos como la popular Xbox 360, la integración del juego en línea, y hoy con Xbox Series X|S se posiciona como una de las plataformas más potentes del mercado. Además, ha impulsado la industria con servicios innovadores y franquicias icónicas como Halo, Gears of War y Forza.</p>
                 </section>
                 <hr>
                 <section>
                     <h3>PlayStation</h3>
-                    <img width="500" height="500" tabindex="-1" src="assets/playstation.png" alt="Logo del patrocinador PlayStation">
+                    <img tabindex="-1" src="assets/playstation.png" alt="Logo del patrocinador PlayStation">
                     <p>PlayStation es la marca de videojuegos de Sony Interactive Entertainment, que abarca consolas, servicios en línea y una amplia biblioteca de juegos. Desde su lanzamiento en 1994, ha revolucionado la industria con innovaciones como el CD-ROM, el juego en línea y la realidad virtual. Con consolas icónicas como PlayStation 2, PlayStation 3, PlayStation 4 y PlayStation 5, ha vendido más de 500 millones de unidades en total. Además, ofrece servicios como PlayStation Network y PlayStation Plus, permitiendo a los jugadores conectarse, descargar juegos y disfrutar de experiencias multijugador. Sus franquicias emblemáticas incluyen títulos como God of War, Uncharted y The Last of Us.</p>
                 </section>
                 <hr>
                 <section>
                     <h3>Nintendo</h3>
-                    <img width="500" height="500" tabindex="-1" src="assets/nintendo.png" alt="Logo del patrocinador Nintendo">
+                    <img tabindex="-1" src="assets/nintendo.png" alt="Logo del patrocinador Nintendo">
                     <p>Nintendo es una de las compañías de videojuegos más reconocidas a nivel mundial, famosa por sus consolas innovadoras y sus icónicas franquicias. Fundada en 1889, ha evolucionado desde la fabricación de cartas hasta convertirse en un gigante del entretenimiento digital. Sus consolas, como la NES, SNES, Nintendo 64, Wii, y Nintendo Switch, han marcado generaciones de jugadores. Nintendo es responsable de sagas legendarias como Mario, Zelda, Pokémon y Metroid, que han definido la cultura gamer y siguen siendo referentes en creatividad y diversión. Su enfoque en la jugabilidad y la experiencia familiar la distingue como líder en la industria.</p>
                 </section>
             </div>

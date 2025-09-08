@@ -182,17 +182,8 @@ button:active {
   box-sizing: border-box;
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(220px, 1fr));
-  width: 70%;
   gap: 20px;
-  height: 500px;
   width: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  margin-bottom: 50px;
-  border: 5px solid #CF0F47;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  box-shadow: 0 4px 16px #CF0F47;
 }
 
 .listSponsors > section,
@@ -204,6 +195,15 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+.listSponsors img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px #CF0F47;
 }
 
 .mainSponsorTag {
@@ -256,18 +256,48 @@ a[href]:hover {
 }
 
 .mainNav.open {
-  display: flex;
+  display: flex !important;
 }
 
-@media (max-width: 480px) {
-  th, td {
-    font-size: 0.7rem;
+.mapaIframe{
+  width: 100%;
+  height:min-content;
+  min-height: 300px;
+}
+
+@media (min-width: 1024px) {
+  header {
+    justify-content: space-around;
+  }
+
+  footer li,
+  footer p{
+    font-size: 0.9rem;
+  }
+
+  .listSponsors p {
+    font-size: 0.9rem;
+  }
+
+  form{
+    width: 85% !important;
+    font-size: 0.9rem;
+  }
+
+  .formLine input,
+  .formLine select {
+    font-size: 0.9rem;
+  }
+
+  .listExhibitors {
+    grid-template-columns: 1fr 1fr 1fr!important; /* 3 columnas */
+    width: 100% !important;
   }
 }
 
 @media (min-width: 768px) {
   .mainNav {
-    display: flex !important;
+    display: none;
     position: static;
     flex-direction: row;
     width: auto;
@@ -280,5 +310,68 @@ a[href]:hover {
 
   th, td {
     font-size: 0.8rem;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+
+  footer li,
+  footer p{
+    font-size: 0.8rem;
+  }
+
+  .listSponsors p {
+    font-size: 0.8rem;
+  }
+
+  form{
+    width: 85% !important;
+    font-size: 0.8rem;
+  }
+
+  .formLine input,
+  .formLine select {
+    font-size: 0.8rem;
+  }
+
+  .listExhibitors {
+    grid-template-columns: 1fr 1fr !important; /* 2 columnas */
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  th, td {
+    font-size: 0.7rem;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+
+  footer li,
+  footer p{
+    font-size: 0.7rem;
+  }
+
+  .listSponsors p {
+    font-size: 0.7rem;
+  }
+
+  form{
+    width: 85% !important;
+    font-size: 0.7rem;
+  }
+
+  .formLine input,
+  .formLine select {
+    font-size: 0.7rem;
+  }
+
+
+  .listExhibitors {
+    grid-template-columns: 1fr !important; /* 2 columnas en mobile */
+    width: 100% !important;
   }
 }

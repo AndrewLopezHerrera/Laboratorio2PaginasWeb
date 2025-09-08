@@ -38,3 +38,12 @@
 #infoPatrocinadores hr {
   border-color: #CF0F47 !important;
 }
+
+.buttonMenu {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 20px;
+}
